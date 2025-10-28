@@ -1,4 +1,4 @@
-variable "ami_id" {
+uvariable "ami_id" {
   description = "The AMI ID for the instances"
   type        = string
   default     = "ami-0b8c6b923777519db"
@@ -93,5 +93,5 @@ variable "dynamodb_table" {
 variable "main-region" {
   description = "The AWS region to deploy resources"
   type        = string
-  default     = "us-west-2"
+  default     = "eu-west-1"
 }
